@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+.banner {
+    padding-block: 20px;
+    background-image: url("../images/sham-jallaludin-WIgQqi7_M6o-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img {
+    width: 135px;
+    height: 135px;
+    display: block;
+    margin-inline: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: #5AAA95;
+    color: #095256;
+    margin: 0;
+    margin-top: 30px;
+}
+
+section {
+    margin-block: 30px;
+}
+
+
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-indent: 20px;
+    background-color: #5AAA95;
+    /* border-radius: 3px; */
+    color: #095256;
+}
+
+li span, li p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.personal-data ul {
+    list-style: circle;
+}
+
+.personal-data-label {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.year-range {
+    font-weight: 700;
+}
+
+.academic-bg-ul, .work-experience-ul {
+    list-style-type: none;
+    padding-inline-start: 20px;
+
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li p {
+    padding-inline-start: 100px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #BB9F06;
+    padding-block: 10px;
+}
+
+
+footer span {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+
+footer a {
+    height: 20px;
+    width: 20px;
+}
+
+
+.fa-facebook, .fa-twitter, .fa-github {
+    color: #FFFFFF  ;
+}
