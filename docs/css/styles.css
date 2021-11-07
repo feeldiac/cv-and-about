@@ -2,14 +2,21 @@
     margin: 0;
 }
 
-.banner {
+.banner, .sobremi-banner {
     padding-block: 20px;
-    background-image: url("../images/sham-jallaludin-WIgQqi7_M6o-unsplash.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.banner img {
+.banner {
+    background-image: url("../images/sham-jallaludin-WIgQqi7_M6o-unsplash.jpg");
+}
+
+.sobremi-banner {
+    background-image: url("../images/philippe-oursel-ZAF-rhUyESY-unsplash.jpg");
+}
+
+.banner img, .sobremi-banner img {
     width: 135px;
     height: 135px;
     display: block;
@@ -21,7 +28,6 @@ h1 {
     font-family: 'PT Sans', sans-serif;
     font-size: 36px;
     font-weight: 700;
-    text-transform: capitalize;
     text-align: center;
     letter-spacing: 5px;
     background-color: #5AAA95;
@@ -42,7 +48,6 @@ h2 {
     text-transform: capitalize;
     text-indent: 20px;
     background-color: #5AAA95;
-    /* border-radius: 3px; */
     color: #095256;
 }
 
@@ -81,27 +86,41 @@ ul li p {
     
 }
 
-footer{
+footer, .sobremi-footer{
     text-align: center;
-    background-color: #BB9F06;
     padding-block: 10px;
 }
 
+footer {
+    background-color: #BB9F06;
+}
 
-footer span {
+.sobremi-footer {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+footer span, .sobremi-footer span {
     text-align: center;
     color: #ffffff;
     font-size: 20px;
     font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
-
-footer a {
-    height: 20px;
-    width: 20px;
-}
-
 
 .fa-facebook, .fa-twitter, .fa-github {
     color: #FFFFFF  ;
+}
+
+/* ---- SOBRE MI ----- */
+
+.fa-link {
+    color: #095256;
+}
+
+.about p, .preferences p, .vision p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 30px;
 }
